@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar_nav {
+}
+
+.nav_item {
+}
+
+.nav_link {
+}
