@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: green;
+  width: 83px;
+  height: 100vh;
+  position: fixed;
+  margin-top: 65px;
+  z-index: 100;
+  transition: width 0.5s;
+}
+.sidebar:hover {
+  width: 250px;
+}

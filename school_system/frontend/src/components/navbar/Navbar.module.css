@@ -5,13 +5,57 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 101;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 1px;
+  position: fixed;
+  color: maroon;
 }
 
 .navbar_nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
-
+.navbar_nav i {
+  font-size: 1.4rem;
+}
 .nav_item {
 }
 
 .nav_link {
+  float: left;
+  text-align: center;
+  padding: 21px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  position: relative;
+}
+.nav_link:hover {
+  cursor: pointer;
+}
+.nav_search {
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+.nav_search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 12px 50px 12px 50px;
+  color: black;
+  background-color: salmon;
+}
+
+.nav_search i {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
