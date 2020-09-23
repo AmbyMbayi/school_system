@@ -16,6 +16,9 @@ class App extends Component {
         <Content />
         <AddStudent />
         <h3>color rey</h3>
+        <div className="content">
+          <h2>cod</h2>
+        </div>
       </div>
     );
   }

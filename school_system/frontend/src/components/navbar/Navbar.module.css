@@ -1,3 +1,20 @@
+:root {
+  --primary-color: #4834d4;
+  --success-color: #6ab04c;
+  --warning-color: #f0932b;
+  --danger-color: #eb4d4b;
+
+  --light-color: #212529;
+  --light-second-color: #727475;
+  --light-background: #ffffff;
+  --light-second-background: #f1f1f1;
+
+  --dark-color: #909090;
+  --dark-second-color: #f5f6fa;
+  --dark-background: #23242d;
+  --dark-second-background: #181818;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -58,4 +75,103 @@
   right: 20px;
   transform: translateX(-50%);
   cursor: pointer;
+}
+
+.nav-link i {
+  color: red;
+  font-size: 20px;
+}
+.nav_item {
+  color: black;
+}
+.nav_right {
+  margin-left: auto;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover {
+  cursor: pointer;
+}
+.dropdown_menu {
+  list-style: none;
+  /*display: none;*/
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  background: grey;
+  max-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: unset;
+  border-radius: 10px;
+  border: 0.125px solid red;
+}
+.dropdown_menu_item {
+  width: 100%;
+}
+.dropdown_menu_header {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid chartreuse;
+}
+.dropdown_menu_footer {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid chartreuse;
+}
+.dropdown_menu_link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+}
+.dropdown_menu_link div {
+  min-width: 82px;
+  height: 50px;
+  position: relative;
+}
+.dropdown_menu_link i {
+  font-size: 1.25rem;
+  color: bisque;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.dropdown_menu_link span {
+  font-size: 15px;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dropdown_menu_link span > span {
+  font-size: 12px;
+}
+.notification_menu {
+  min-width: 380px;
+}
+.dropdown_menu_content {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.avt {
+  padding: 11px;
+}
+.avt img {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+.navbar_badge {
+  font-size: 0.6rem;
+  padding: 2px 4px;
+  font-weight: 300;
+  position: absolute;
+  right: 5px;
+  top: 9px;
+  border-radius: 5px;
+  background: yellow;
 }

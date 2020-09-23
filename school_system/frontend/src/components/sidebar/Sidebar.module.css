@@ -1,6 +1,7 @@
 .sidebar {
   background-color: green;
-  width: 83px;
+  /* width: 83px; */
+  width: 250px;
   height: 100vh;
   position: fixed;
   margin-top: 65px;
@@ -9,4 +10,38 @@
 }
 .sidebar:hover {
   width: 250px;
+}
+
+.sidebar_nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.sidebar_nav_item {
+  width: 100%;
+}
+.sidebar_nav_link {
+  display: flex;
+  align-items: center;
+  color: bisque;
+  text-decoration: none;
+}
+
+.sidebar_nav_link i {
+  font-size: 1.5rem;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sidebar_nav_link div {
+  height: 50px;
+  min-width: 82px;
+  position: relative;
 }
